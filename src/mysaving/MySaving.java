@@ -45,7 +45,7 @@ public class MySaving {
             System.out.println("Your total is: "+total);
         }else if(x==6){
             Scanner amount = new Scanner(System.in);
-            System.out.println("Enter money tjay you want take out.");
+            System.out.println("Enter money that you want take out.");
             double out=amount.nextDouble();
             bank.take(out);
             double total = bank.getTotal();
